@@ -1,6 +1,6 @@
 FROM alpine:3.3
 
-MAINTAINER Maik Hummel <m@ikhummel.com>
+MAINTAINER Jesus LC <jeslopcru@gmail.com>
 
 ENV VARNISH_CACHE_SIZE=128m
 

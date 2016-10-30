@@ -23,6 +23,10 @@ After that, add the cloned file and directory to the root of a  PHP project. The
 ## Based
 This repo is based on https://github.com/settermjd/docker-for-local-development and varnish docker image is based on https://github.com/beevelop/docker-varnish
 
+## Use
+- Nginx with Varnish -> docker.dev:80
+- Nginx without Varnish -> docker.dev:8080
+
 ## Contributing
 
 See the [CONTRIBUTING](CONTRIBUTING.md) file.
@@ -30,3 +34,4 @@ See the [CONTRIBUTING](CONTRIBUTING.md) file.
 ## License
 
 This project is licensed under the [MIT License](/LICENSE).
+
