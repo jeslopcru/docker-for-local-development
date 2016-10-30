@@ -8,7 +8,7 @@ command-varnish: ## open dkcer varnish for run commands
 	docker exec -i -t dockerforlocaldevelopment_varnish_1   /bin/sh
 
 composer: ## run composer
-    docker exec -it dockerforlocaldevelopment_testing php composer.phar
+	docker exec -it dockerforlocaldevelopment_testing php composer.phar
 
 phpunit: ## run phpunit
-    docker exec -it dockerforlocaldevelopment_testing vendor/bin/phpunit
+	docker exec -it dockerforlocaldevelopment_testing vendor/bin/phpunit
