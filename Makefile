@@ -3,3 +3,12 @@ help: ## Prints this help.
 
 build: ## Builds the docker container and installs dependencies
 	docker-compose up -d
+
+command-varnish: ## open dkcer varnish for run commands
+	docker exec -i -t dockerforlocaldevelopment_varnish_1   /bin/sh
+
+composer: ## run composer
+    docker exec -it dockerforlocaldevelopment_testing php composer.phar
+
+phpunit: ## run phpunit
+    docker exec -it dockerforlocaldevelopment_testing vendor/bin/phpunit
